@@ -1,0 +1,10 @@
+{
+    "tasks":{
+        "start": "deno run -A src/index.ts"
+    },
+    "compilerOptions":{
+        "allowJs": true,    
+        "strict": true,
+        "lib": ["ES6", "dom", "deno.window"]
+    }
+}
